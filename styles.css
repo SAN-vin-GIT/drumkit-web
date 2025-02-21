@@ -1,0 +1,164 @@
+body {
+  text-align: center;
+  background-color: #262f29;
+}
+
+h1 {
+  font-size: 10rem;
+  color: #DBEDF3;
+  font-family: "Lobster";
+  text-shadow: 3px 0 #DA0463;
+  margin:3rem;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-size: 2rem;
+  font-family: "Indie Flower";
+}
+
+.w {
+  background-image: url("images/tom1.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
+
+.a {
+  background-image: url("images/crash.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh; 
+}
+
+.s {
+  background-image: url("images/tom2.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
+
+.d {
+  background-image: url("images/snare.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
+
+.j {
+  background-image: url("images/kick.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh; 
+}
+
+
+.k {
+  background-image: url("images/tom3.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
+
+.l {
+  background-image: url("images/tom4.png");
+  background-size: contain; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 100vh;
+}
+
+
+.set {
+  margin: 1cap auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  /* border: 10px solid #404B69; */
+  font-size: 3rem;
+  font-family: 'Arvo', cursive;
+  /* line-height: 2; */
+  font-weight: 900;
+  color: #000000;
+  text-shadow: 3px 0 #DBEDF3;
+  /* border-radius: 15px; */
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  text-align: center;
+  /* margin: 10px; */
+  background-color: transparent;
+  border-width: 2px;
+  border-style: none;
+  border-color: none;
+  border-image: initial;
+}
+
+
+
+/* ---------- */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+table {
+  margin: 10%;
+  width: 90%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background: transparent;
+  color: #DBEDF3;
+  font-size: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 2px solid #DBEDF3;
+  padding: 20px;
+  text-align: center;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #DBEDF3;
+  font-size: 2.2rem;
+  font-family:"Lobster";
+}
+
+td {
+  font-size: 2rem;
+  font-family:"Arvo";
+
+}
