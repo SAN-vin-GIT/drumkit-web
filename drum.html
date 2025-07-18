@@ -14,6 +14,12 @@
 
 <body>
 
+  <!-- Background elements from index.html -->
+  <div style="position:fixed; inset:0; opacity:0.20; pointer-events:none; z-index:0;">
+    <div style="position:absolute; top:5rem; left:2.5rem; width:10rem; height:10rem; border-radius:9999px; background:#a78bfa; filter:blur(48px);"></div>
+    <div style="position:absolute; bottom:5rem; right:2.5rem; width:15rem; height:15rem; border-radius:9999px; background:#06b6d4; filter:blur(48px);"></div>
+  </div>
+  <a href="index.htm" style="position: fixed; top: 1rem; right: 1rem; z-index: 50; background: linear-gradient(90deg, #262f29, #06b6d4); color: white; font-weight: bold; padding: 0.5rem 1rem; border-radius: 0.5rem; text-decoration: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08); font-size: 0.95rem; transition: opacity 0.2s; opacity: 0.85; font-family: 'Arvo', sans-serif;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">Back to Home</a>
   <h1 id="title">DrumKit Studio</h1>
   <div class="set">
     <button class="w drum">w</button>
